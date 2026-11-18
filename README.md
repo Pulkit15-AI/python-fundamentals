@@ -1,2 +1,4 @@
 # python-fundamentals
-My python learning journey
+My Python learning journey as a second-year AI/ML student at IIT Guwahati.
+
+Day 1: setup, variables, input/print, first program.
