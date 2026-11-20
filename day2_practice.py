@@ -83,9 +83,45 @@
 # print("You are an adult")
 
 # Error 3
-age = 18
-if age = 18:
-    print("you are an adult")
-    
+# age = 18
+# if age = 18: # invalid syntax maybe you meant '==' or ':=' instead of '='?
+#     print("you are an adult")
 
-    
+
+#------loops
+# Example-1 a while loop
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count = count + 1
+# print("done")
+
+# Example-2 a loop that never ends
+# count = 1 
+# while count <= 5:
+#     print(count)
+
+# Example-3 a for loop with range()
+# for i in range(5):
+#     print(i)
+
+# Example-4 choose start and end
+# for i in range(1,6):
+#     print(i)
+
+# Example 5 loop wuith a step
+# for i in range(2,11,2):
+#     print(i)
+# Example-6 breaks stops the loop
+# while True:
+#     answer = input("type 'quit' to stop: ")
+#     if answer == 'quit':
+#         break
+#     print(f"You typed: {answer}")
+# print("loop ended")
+
+# Example-7 continue skips one round
+for i in range(1,11):
+    if i % 2 == 0:
+        continue
+    print(i)
